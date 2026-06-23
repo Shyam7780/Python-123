@@ -1,0 +1,6 @@
+f=open("massege.txt","a")
+f.write(" All is  Well in the world")
+f.close()
+f1=open("massege.txt","r")
+print(f1.read())
+f1.close()
